@@ -14,11 +14,17 @@
   <script src="{% static 'htmx.v2.0.0.min.js' %}"></script>
   <title>QuickStatements 3.0</title>
   <style>
-    [data-theme="light"],:root:not([data-theme="dark"]) {
+    :root {
       --primary: #1e88e5;
-      --pico-primary: #1e88e5;
-      --pico-primary-background: #1e88e5;
-      --pico-primary-hover: #1e88e5;
+    }
+  
+    button, input[type="submit"] {
+      background-color: #1e88e5;
+      color: #ffffff;
+    }
+  
+    button:hover, input[type="submit"]:hover {
+      background-color: #166bb5; 
     }
 
     /* automatically add the spinner */

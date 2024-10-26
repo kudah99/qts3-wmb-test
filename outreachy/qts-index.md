@@ -5,36 +5,32 @@ The QuickStatements 3.0 homepage serves as the starting point for managing batch
 
 ## Features
 
-### 1. **Welcome Message**
-The homepage greets users with a friendly welcome message:
 
-### 2. **New Batch Button**
+### 1. **New Batch Button**
 A prominent button directs users to create a new batch:
 - **Button Text**: `New batch`
 - **Action**: Clicking this button takes the user to the "New Batch" creation form, where they can specify details for a new batch.
 
-### 3. **Batch Search by ID**
+### 2. **Batch Search by ID**
 Users can search for a batch by entering a specific Batch ID:
 - **Field**: `Batch ID`
 - **Input Type**: Number
-- **Submit Button**: `See batch details`
 - **Action**: After entering a Batch ID and clicking submit, users can view detailed information about that batch. 
 
-### 4. **User Batches Search**
+### 3. **User Batches Search**
 A form allows users to search for all batches created by a specific user:
 - **Field**: `Username`
 - **Input Type**: Text
-- **Submit Button**: `See batches by user`
 - **Action**: Users can enter a username and retrieve a list of batches associated with that user.
 
-### 5. **Navigation Bar**
+### 4. **Navigation Bar**
 The navigation bar offers the following options:
 - **QuickStatements 3.0 (Home)**: Links to the homepage.
 - **New Batch**: Links to the batch creation page.
 - **Last Batches**: A placeholder link for viewing the latest batches (currently not active).
 - **GitHub Repository**: A link to the project's GitHub repository: `https://github.com/WikiMovimentoBrasil/quickstatements3`.
 
-### 6. **User Authentication**
+### 5. **User Authentication**
 The navigation bar adjusts based on the user's authentication status:
 - **Anonymous Users**: 
   - Displays a login link.
